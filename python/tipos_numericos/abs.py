@@ -4,6 +4,8 @@
 # Traduzindo: Mesmo que o resultado seja um numero negativo
 # ele é convertido em positivo pela função abs
 
+# https://docs.python.org/pt-br/3/library/stdtypes.html
+
 
 def abs_function_built_in(number):
     result = abs(number)
