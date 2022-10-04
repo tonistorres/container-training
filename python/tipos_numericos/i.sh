@@ -34,7 +34,7 @@ sleep 1
 CRAIANDOAMBIENTEVIRTUAL(){
 echo "$MENU_ISNTALL_ENVIRONMENT"
 TIME
-deactivate
+# deactivate
 python3 -m venv .venv && source .venv/bin/activate
 }
 
@@ -50,6 +50,10 @@ pip install flake8
 TIME
 }
 
+MOSTRARPACOTESINSTALADOS(){
+  pip freeze
+}
+
 ACESSANDOSITEINTERNET(){
 echo "$MENU_ACCES"
 INSTALANDOBLACKFLAKE
@@ -57,9 +61,20 @@ source .venv/bin/activate
 which python3
 }
 
+
+GITIGNORE(){
+touch .gitignore
+cat << EOF >> .gitignore
+.venv/
+
+EOF
+}
+
 INSTALADORES(){
 CRAIANDOAMBIENTEVIRTUAL
 ACESSANDOSITEINTERNET
+GITIGNORE
+MOSTRARPACOTESINSTALADOS
 }
 
 
