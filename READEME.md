@@ -1,3 +1,5 @@
+[Documentação Python](https://docs.python.org/pt-br/3/tutorial/)
+
 ![Projeto Mezzer](./modelo.jpeg)
 
 > Este container será utilizado para guardar práticas que serão utilizadas para o curso da embraer em parceria com a xpe education.
