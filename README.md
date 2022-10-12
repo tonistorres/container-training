@@ -4,6 +4,14 @@
 
 > Este container será utilizado para guardar práticas que serão utilizadas para o curso da embraer em parceria com a xpe education.
 
+<h4>entrada_de_dados:</h4>
+<ol>
+    <li>exemplo_1.py;</li>
+    <li>exemplo_2.py;</li>
+    <li>exemplo_3.py;</li>
+</ol>
+
+
 <h4>mascara_de_formataca:</h4>
 <ol>
     <li>mascara;</li>
