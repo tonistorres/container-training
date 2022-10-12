@@ -11,20 +11,37 @@
     <li>exemplo_3.py;</li>
 </ol>
 
+<h4>estrutura_de_repeticao:</h4>
+<ol>
+    <li>for_1.py;</li>
+    <li>for_2.py;</li>
+    <li>for_decremento_1.py;</li>
+</ol>
 
-<h4>mascara_de_formataca:</h4>
+<h4>estrutura_de_decisao:</h4>
+<ol>
+    <li>estrutura_decisao_composta.py;</li>
+    <li>media_notas.py;</li>
+    <li>utilizando_if_elif_else.py;</li>
+</ol>
+
+<h4>mascara_de_formatacao:</h4>
 <ol>
     <li>mascara;</li>
 </ol>
 
-<h4>operadores_boleanos
-:</h4>
+<h4>operadores_boleanos:</h4>
 <ol>
     <li>Operador and;</li>
     <li>Operador not;</li>
     <li>Operador or;</li>
 </ol>
 
+
+<h4>operadores_aritmeticos:</h4>
+<ol>
+    <li>Operadores_aritmeticos.py;</li>
+</ol>
 
 
 <h4>operadores_comparacao:</h4>
