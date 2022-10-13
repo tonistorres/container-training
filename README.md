@@ -25,6 +25,22 @@
     <li>utilizando_if_elif_else.py;</li>
 </ol>
 
+<h4>funcao:</h4>
+<ol>
+    <li>func_1.py;</li>
+    <li>func_calcule_media.py;</li>
+  
+</ol>
+
+
+<h4>funcao_manipulacao_textos:</h4>
+<ol>
+    <li>gravar.py;</li>
+    <li>leitura.py;</li>
+  
+</ol>
+
+
 <h4>mascara_de_formatacao:</h4>
 <ol>
     <li>mascara;</li>
