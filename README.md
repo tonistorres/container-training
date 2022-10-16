@@ -56,18 +56,19 @@
 
 <h4>operadores_aritmeticos:</h4>
 <ol>
-    <li>Operadores_aritmeticos.py;</li>
+    <li>operacao_trybe.py;</li>
+    <li>operadores_aritmeticos.py;</li>
 </ol>
 
 
 <h4>operadores_comparacao:</h4>
 <ol>
-    <li>Operador Maior Igual >= ;</li>
-    <li>Operador Maior Que > ;</li>
-    <li>Operador Diferente != ;</li>
-    <li>Operador Igual == ;</li>
-    <li>Operador Menor Igual <= ;</li>
-    <li>Operador Menor < ;</li>
+    <li>operador Maior Igual >= ;</li>
+    <li>operador Maior Que > ;</li>
+    <li>operador Diferente != ;</li>
+    <li>operador Igual == ;</li>
+    <li>operador Menor Igual <= ;</li>
+    <li>operador Menor < ;</li>
 </ol>
 
 
@@ -93,6 +94,41 @@
     <li>string_concatenation.py ;</li>
     <li>string_triple_quotes.py ;</li>
 </ol>
+
+<h4>tipos_embutidos:</h4>
+<ol>
+    <li>acess_list.py ;</li>
+    <li>append_list.py ;</li>
+    <li>clear_list.py ;</li>
+    <li>del_excluir_list.py ;</li>
+    <li>del_list.py ;</li>
+    <li>extend_iteravel.py ;</li>
+    <li>extend_list.py ;</li>
+    <li>func_type.py ;</li>
+    <li>insert_list.py ;</li>
+    <li>list_1.py ;</li>
+    <li>list_alterando_intervalo.py ;</li>
+    <li>list_alterando_valor_item.py ;</li>
+    <li>list_check_exist.py ;</li>
+    <li>list_comprehension_1.py ;</li>
+    <li>list_comprehension_2.py ;</li>
+    <li>list_comprehension_3.py ;</li>
+    <li>list_comprehension_4.py ;</li>
+    <li>list_comprehension_hello.py ;</li>
+    <li>list_comprehension_upercase.py ;</li>
+    <li>list_idexaco_negativa.py ;</li>
+    <li>list_len_2.py ;</li>
+    <li>list_qualquer_tipo.py ;</li>
+    <li>list_range_of_index.py ;</li>
+    <li>loop_for_list.py ;</li>
+    <li>loop_for_range.py ;</li>
+    <li>pop_empty.py ;</li>
+    <li>pop_list.py ;</li>
+    <li>randon.py ;</li>
+    <li>remove_list.py ;</li>
+    <li>while_list.py ;</li>
+</ol>
+
 
 <h4>tipos_numericos:</h4>
 <ol>
