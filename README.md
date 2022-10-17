@@ -130,6 +130,15 @@
 </ol>
 
 
+<h4>tipos_embutidos_2:</h4>
+<ol>
+    <li>reverse_order.py ;</li>
+    <li>sort_case_insensitive.py ;</li>
+    <li>sort_custom.py ;</li>
+    <li>sort_descending.py ;</li>
+    <li>sort_list.py ;</li>
+</ol>
+
 <h4>tipos_numericos:</h4>
 <ol>
     <li>Função abs;</li>
