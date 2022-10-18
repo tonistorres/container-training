@@ -139,6 +139,39 @@
     <li>sort_list.py ;</li>
 </ol>
 
+
+<h4>tipos_embutidos_3:</h4>
+<ol>
+    <li>copy_list.py ;</li>
+    <li>copy_method_list.py ;</li>
+    <li>join_append.py ;</li>
+    <li>join_extend.py ;</li>
+    <li>join_two_list.py ;</li>
+    
+</ol>
+
+
+<h4>tipos_embutidos_4:</h4>
+<ol>
+    <li>append_list_to_list.py ;</li>
+    <li>append.py ;</li>
+    <li>clear.py ;</li>
+    <li>copy.py ;</li>
+    <li>count.py ;</li>
+    <li>extend.py ;</li>
+    <li>index.py ;</li>
+    <li>insert.py ;</li>
+    <li>pop.py ;</li>
+    <li>remove.py ;</li>
+    <li>reverse.py ;</li>
+    <li>sort_2.py ;</li>
+    <li>sort_list_dictionary.py ;</li>
+    <li>sort.py ;</li>
+    <li>sorted_2.py ;</li>
+
+</ol>
+
+
 <h4>tipos_numericos:</h4>
 <ol>
     <li>Função abs;</li>
