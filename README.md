@@ -210,7 +210,7 @@
     <li>tuple_range.py ;</li>
     <li>tuple_tipos_dados.py ;</li>
     <li>tuple_tipos_misturados.py ;</li>
-    <li>tuple_1.py ;</li>
+  
    
 </ol>
 
