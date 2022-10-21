@@ -26,21 +26,6 @@
 </ol>
 
 
-
-<h4>exercisees_list:</h4>
-<ol>
-    <li>ex_1.py;</li>
-    <li>ex_2.py;</li>
-    <li>ex_3.py;</li>
-    <li>ex_4.py;</li>
-    <li>ex_5.py;</li>
-    <li>ex_6.py;</li>
-    <li>ex_7.py;</li>
-    <li>ex_8.py;</li>
-
-</ol>
-
-
 <h4>funcao:</h4>
 <ol>
     <li>func_1.py;</li>
@@ -53,6 +38,15 @@
 <ol>
     <li>gravar.py;</li>
     <li>leitura.py;</li>
+  
+</ol>
+
+
+<h4>localwb test logica:</h4>
+<ol>
+    <li>req_1.py;</li>
+    <li>req_2.py;</li>
+    <li>req_3.py;</li>
   
 </ol>
 
@@ -203,6 +197,24 @@
 </ol>
 
 
+<h4>tipos_embutidos_5:</h4>
+<ol>
+    <li>check_exist_in_tuple.py ;</li>
+    <li>tuple_1.py ;</li>
+    <li>tuple_acessando_item.py ;</li>
+    <li>tuple_construtor.py ;</li>
+    <li>tuple_indexacao_negativa.py ;</li>
+    <li>tuple_intervalo_indice_negativo.py ;</li>
+    <li>tuple_range_intervalo_1.py ;</li>
+    <li>tuple_range_intervalo.py ;</li>
+    <li>tuple_range.py ;</li>
+    <li>tuple_tipos_dados.py ;</li>
+    <li>tuple_tipos_misturados.py ;</li>
+    <li>tuple_1.py ;</li>
+   
+</ol>
+
+
 <h4>tipos_numericos:</h4>
 <ol>
     <li>Função abs;</li>
@@ -221,6 +233,13 @@
     <li>exemplo_1.py ;</li>
 </ol>
 
+
+<h4>XPE_Modulo_1:</h4>
+<ol>
+    <li>limiar.py ;</li>
+    <li>operacoes_com_parenteses.py ;</li>
+    <li>variaveis.py ;</li>
+</ol>
 
 <h4>Teste Software:</h4>
 <ol>
