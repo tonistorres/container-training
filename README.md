@@ -25,6 +25,22 @@
     <li>utilizando_if_elif_else.py;</li>
 </ol>
 
+
+
+<h4>exercisees_list:</h4>
+<ol>
+    <li>ex_1.py;</li>
+    <li>ex_2.py;</li>
+    <li>ex_3.py;</li>
+    <li>ex_4.py;</li>
+    <li>ex_5.py;</li>
+    <li>ex_6.py;</li>
+    <li>ex_7.py;</li>
+    <li>ex_8.py;</li>
+
+</ol>
+
+
 <h4>funcao:</h4>
 <ol>
     <li>func_1.py;</li>
