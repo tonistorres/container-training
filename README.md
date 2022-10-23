@@ -4,6 +4,12 @@
 
 > Este container será utilizado para guardar práticas que serão utilizadas para o curso da embraer em parceria com a xpe education.
 
+
+<h4>crud:</h4>
+<ol>
+    <li>Conexao.py;</li>    
+</ol>
+
 <h4>entrada_de_dados:</h4>
 <ol>
     <li>exemplo_1.py;</li>
@@ -16,6 +22,8 @@
     <li>for_1.py;</li>
     <li>for_2.py;</li>
     <li>for_decremento_1.py;</li>
+    <li>while_1.py;</li>
+    <li>while_cal_media.py;</li>
 </ol>
 
 <h4>estrutura_de_decisao:</h4>
@@ -25,6 +33,27 @@
     <li>utilizando_if_elif_else.py;</li>
 </ol>
 
+<h4>exercicios_list:</h4>
+<ol>
+    <li>ex_1.py;</li>
+    <li>ex_2.py;</li>
+    <li>ex_3.py;</li>
+    <li>ex_4.py;</li>
+    <li>ex_5.py;</li>
+    <li>ex_6.py;</li>
+    <li>ex_7.py;</li>
+    <li>ex_8.py;</li>    
+</ol>
+
+<h4>Flask_Crud:</h4>
+<ol>
+    <li>main.py;</li>
+    <li>src.controllers.controller.py;</li>
+    <li>src.routes.route.py;</li>
+    <li>src.app.py;</li>
+    <li>src.db.py;</li>
+  
+</ol>
 
 <h4>funcao:</h4>
 <ol>
@@ -66,6 +95,8 @@
 
 <h4>operadores_aritmeticos:</h4>
 <ol>
+    <li>book.py;</li>
+    <li>horas.py;</li>
     <li>operacao_trybe.py;</li>
     <li>operadores_aritmeticos.py;</li>
 </ol>
@@ -73,12 +104,12 @@
 
 <h4>operadores_comparacao:</h4>
 <ol>
-    <li>operador Maior Igual >= ;</li>
-    <li>operador Maior Que > ;</li>
-    <li>operador Diferente != ;</li>
-    <li>operador Igual == ;</li>
-    <li>operador Menor Igual <= ;</li>
-    <li>operador Menor < ;</li>
+    <li>operator_bigger_or_equal.py;</li>
+    <li>operator_bigger_then.py;</li>
+    <li>operator_different.py;</li>
+    <li>operator_equal.py;</li>
+    <li>operator_less_or_equal.py;</li>
+    <li>operator_less_than.py;</li>
 </ol>
 
 <h4>POO:</h4>
@@ -116,8 +147,16 @@
 <h4>strings:</h4>
 <ol>
     <li>string_cadeia_caracter.py ;</li>
+    <li>string_fatiamento_inicio.py ;</li>
+    <li>string_fatiamento.py ;</li>
+    <li>string_fatiar_ate_fim.py ;</li>
+    <li>string_fatiar_index_negative.py ;</li>
+    <li>string_varias_linhas.py ;</li>
+    <li>string_variavel.py ;</li>
+    <li>string_concatenacao.py ;</li>
     <li>string_concatenation.py ;</li>
     <li>string_triple_quotes.py ;</li>
+    <li>strings.py ;</li>
 </ol>
 
 <h4>tipos_embutidos:</h4>
@@ -200,19 +239,42 @@
 <h4>tipos_embutidos_5:</h4>
 <ol>
     <li>check_exist_in_tuple.py ;</li>
-    <li>tuple_1.py ;</li>
+    <li>join_tuple.py ;</li>
+    <li>loop_range_index.py ;</li>
+    <li>loop_tuple_element.py ;</li>
+    <li>loop_while.py ;</li>
+    <li>multiplicar_tuple.py ;</li>
+    <li>tuplas_unindo.py ;</li>
+    <li>tuple_1_item.py ;</li>
     <li>tuple_acessando_item.py ;</li>
+    <li>tuple_append_alternative.py</li>
     <li>tuple_construtor.py ;</li>
+    <li>tuple_del.py</li>
+    <li>tuple_desmpacotando_2.py</li>
+    <li>tuple_desempacotando_3.py</li>
+    <li>tuple_desempacotando.py</li>
     <li>tuple_indexacao_negativa.py ;</li>
     <li>tuple_intervalo_indice_negativo.py ;</li>
+    <li>tuple_metodo_count.py</li>
+    <li>tuple_metodo_index.py</li>
     <li>tuple_range_intervalo_1.py ;</li>
     <li>tuple_range_intervalo.py ;</li>
     <li>tuple_range.py ;</li>
+    <li>tuple_remove_alternative.py</li>
     <li>tuple_tipos_dados.py ;</li>
     <li>tuple_tipos_misturados.py ;</li>
+    <li>tuple_update_alternative.py</li>
+    <li>tuple1.py</li>
   
    
 </ol>
+
+
+<h4>tipos_embutidos_6:</h4>
+<ol>
+       
+</ol>
+
 
 
 <h4>tipos_numericos:</h4>
