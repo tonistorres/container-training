@@ -21,8 +21,18 @@
 <ol>
     <li>for_1.py;</li>
     <li>for_2.py;</li>
+    <li>for_aninhado.py;</li>
+    <li>for_break.py;</li>
+    <li>for_continua.py;</li>
+    <li>for_else_break.py;</li>
+    <li>for_else.py;</li>
+    <li>for_range.py;</li>
     <li>for_decremento_1.py;</li>
     <li>while_1.py;</li>
+    <li>while_2.py;</li>
+    <li>while_break.py;</li>
+    <li>while_continua.py;</li>
+    <li>while_else.py;</li>
     <li>while_cal_media.py;</li>
 </ol>
 
@@ -145,6 +155,40 @@
 
 
 <h4>strings:</h4>
+<h3>strings.concatenacao</h3>
+<ol>
+  <li>concat_1.py</li>
+  <li>espaco_em_branco.py</li>
+  <li>string_caracter_scape.py</li>
+  <li>string_format_espaco_correto.py</li>
+  <li>string_format_multiplo.py</li>
+  <li>string_format.py</li>
+</ol>
+<h3>strings.metodos</h3>
+<ol>
+<li>capitalize_number.py</li>
+<li>capitalize.py</li>
+<li>casefold.py</li>
+<li>center.py</li>
+<li>count.py</li>
+<li>encode.py</li>
+<li>endWith.py</li>
+<li>expandstab.py</li>
+<li>find.py</li>
+<li>isalnum.py</li>
+<li>isalpha.py</li>
+<li>isascii.py</li>
+<li>isdigit.py</li>
+<li>isidentifier.py</li>
+<li>islower.py</li>
+<li>isnumeric.py</li>
+<li>string_lower.py</li>
+<li>string_remove_espaco.py</li>
+<li>string_uper.py</li>
+
+</ol>
+
+
 <ol>
     <li>string_cadeia_caracter.py ;</li>
     <li>string_fatiamento_inicio.py ;</li>
@@ -297,11 +341,28 @@
 
 
 <h4>XPE_Modulo_1:</h4>
+<h3>fundamentos_desenvolvedor_python</h3>
+<h2>questoes_teste</h2>
 <ol>
+<li>5.py</li>
+<li>5.py</li>
+<li>11.py</li>
+<li>12.py</li>
+<li>14.py</li>
+
+</ol>
+<h2>trabalho pratico</h2>
+<ol>
+<li>requisito_1.py</li>
+<li>requisito_2.py</li>
+<li>requisito_3.py</li>
+<li>requisito_4.py</li>
+<li>requisito_5.py</li>
+</ol>
     <li>limiar.py ;</li>
     <li>operacoes_com_parenteses.py ;</li>
     <li>variaveis.py ;</li>
-</ol>
+</.ol>
 
 <h4>Teste Software:</h4>
 <ol>
