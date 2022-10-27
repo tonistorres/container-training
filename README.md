@@ -95,6 +95,12 @@
     <li>mascara;</li>
 </ol>
 
+<h4>Numpy:</h4>
+<ol>
+    <li>.py;</li>
+</ol>
+
+
 <h4>operadores_boleanos:</h4>
 <ol>
     <li>Operador and;</li>
@@ -166,6 +172,7 @@
 </ol>
 <h3>strings.metodos</h3>
 <ol>
+<li>isprintable.py</li>
 <li>capitalize_number.py</li>
 <li>capitalize.py</li>
 <li>casefold.py</li>
@@ -182,10 +189,24 @@
 <li>isidentifier.py</li>
 <li>islower.py</li>
 <li>isnumeric.py</li>
+<li>isspace.py</li>
+<li>istitle.py</li>
+<li>isupper.py</li>
+<li>join_tratado.py</li>
+<li>join.py</li>
+<li>ljust.py</li>
+<li>lstrip.py</li>
+<li>maketrans.py</li>
+<li>partition.py</li>
+<li>repalce.py</li>
+<li>rfind.py</li>
+<li>rindex.py</li>
+<li>split.py</li>
+<li>splitlines.py</li>
+<li>startswith.py</li>
 <li>string_lower.py</li>
 <li>string_remove_espaco.py</li>
 <li>string_uper.py</li>
-
 </ol>
 
 
@@ -263,6 +284,7 @@
 <ol>
     <li>append_list_to_list.py ;</li>
     <li>append.py ;</li>
+    <li>buscar_maior_idade.py</li>
     <li>clear.py ;</li>
     <li>copy.py ;</li>
     <li>count.py ;</li>
@@ -304,9 +326,12 @@
     <li>tuple_range_intervalo_1.py ;</li>
     <li>tuple_range_intervalo.py ;</li>
     <li>tuple_range.py ;</li>
+    <li>tuple_max.py</li>
     <li>tuple_remove_alternative.py</li>
     <li>tuple_tipos_dados.py ;</li>
     <li>tuple_tipos_misturados.py ;</li>
+    <li>tuple_metodo_sum.py</li>
+    <li>tuple_min.py</li>
     <li>tuple_update_alternative.py</li>
     <li>tuple1.py</li>
   
@@ -316,10 +341,71 @@
 
 <h4>tipos_embutidos_6:</h4>
 <ol>
+  <li>acessando_item_set.py</li>
+  <li>add_item_set.py</li>
+  <li>add.py</li>
+  <li>celar_remove_set.py</li>
+  <li>del_set.py</li>
+   <li>derenca_sibolo_set.py</li>
+  <li>diference_set.py</li>
+  <li>intersecao_simbolo_set.py</li>
+  <li>intersection_update_set.py</li>
+  <li>isdisjoint.py</li>
+   <li>issubset.py</li>
+  <li>len_set.py</li>
+  <li>loop_itens_set.py</li>
+  <li>remove_discard_set.py</li>
+  <li>remove_pop_set.py</li>
+   <li>remove_set.py</li>
+  <li>set_comprimento.py</li>
+  <li>set_construtor.py</li>
+  <li>set_tipo_dados_deferente.py</li>
+  <li>set_tipos_dados.py</li>
+   <li>set1.py</li>
+  <li>symmetric_difference_update_set.py</li>
+  <li>symmetric_difference.py</li>
+  <li>union_set_simbolo.py</li>
+  <li>uniom_set.py</li>
+   <li>update_itens_set.py</li>
+  <li>update_todos_iteravel_set.py</li>
        
 </ol>
 
 
+<h4>tipos_numericos:</h4>
+<ol>
+<li>acessando_dicionario.py</li>
+<li>acessando_metodo-get.py</li>
+<li>adicionando_novo_item_dicionario.py</li>
+<li>atualizar_valor_dicionario.py</li>
+<li>check_keys_dicionario.py</li>
+<li>clear_dicionarios.py</li>
+<li>copy_dicionario_dict.py</li>
+<li>copy_dicionario.py</li>
+<li>criando_dicionarios.py</li>
+<li>del_exclui_dicionario.py</li>
+<li>del_removendo_item_dicionario.py</li>
+<li>desafio_1_1.py</li>
+<li>desafio_1_2.py</li>
+<li>desafio1.py</li>
+<li>dicionario_valor_duplicados_nao_permitidos.py</li>
+<li>dicionario.py</li>
+<li>iterar_sobre_chave_valor_dicionario.py</li>
+<li>keys_dicionario.py</li>
+<li>keys_metodo_dicionario.py</li>
+<li>loop_dicionario.py</li>
+<li>loop_itens_metodo_dicionario.py</li>
+<li>loop_itens_values_dicionario.py</li>
+<li>obter_itens_dicionarios.py</li>
+<li>pop_dicionario.py</li>
+<li>removendo_pop_dicionario.py</li>
+<li>removendo_ultimo_item_dicionario_popitem.py</li>
+<li>setdefault_dicionario.py</li>
+<li>tipos_dados_dicionario.py</li>
+<li>update_dicionario.py</li>
+<li>values_dicionario.py</li>
+<li> verifique_existe_chave_dicionario</li>
+</ol>
 
 <h4>tipos_numericos:</h4>
 <ol>
