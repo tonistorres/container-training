@@ -4,11 +4,10 @@
 
 > Este container será utilizado para guardar práticas que serão utilizadas para o curso da embraer em parceria com a xpe education.
 
+| Folder(s) | File(s)       | Summary                                                     |
+| --------- | ------------- | ----------------------------------------------------------- |
+| crud      | Connection.py | Python project that performs operations on a mysql database |
 
-<h4>crud:</h4>
-<ol>
-    <li>Conexao.py;</li>    
-</ol>
 
 <h4>entrada_de_dados:</h4>
 <ol>
