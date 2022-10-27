@@ -9,12 +9,12 @@
 | crud      | Connection.py | Python project that performs operations on a mysql database |
 
 
-<h4>entrada_de_dados:</h4>
-<ol>
-    <li>exemplo_1.py;</li>
-    <li>exemplo_2.py;</li>
-    <li>exemplo_3.py;</li>
-</ol>
+| Folder(s)  | File       | Summary                           |
+| ---------- | ---------- | --------------------------------- |
+| data_input | input_1py  | In the contents of this           |
+|            | input_2.py | folder we find files              |
+|            | input_3.py | with data entries (input method). |
+
 
 <h4>estrutura_de_repeticao:</h4>
 <ol>

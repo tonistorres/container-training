@@ -1,4 +1,4 @@
 # crie um algoritmo que digite o nome de uma fruta e imprima
 # o respectivo nome na tela
-fruta = input("Digite o nome de uma fruta:")
-print("O nome Digitado foi ", fruta)
+fruit = input("Enter the name of the fruit:")
+print("the name entered was ", fruit)
