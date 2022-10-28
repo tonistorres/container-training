@@ -16,12 +16,12 @@
 |            | input_3.py | with data entries (input method). |
 
 
-<h4>estrutura_de_decisao:</h4>
-<ol>
-    <li>estrutura_decisao_composta.py;</li>
-    <li>media_notas.py;</li>
-    <li>utilizando_if_elif_else.py;</li>
-</ol>
+| Folder(s)          | File                            | Summary                 |
+| ------------------ | ------------------------------- | ----------------------- |
+| decision_structure | avarage_grades.py               | In this folder contains |
+|                    | composite_decision_structure.py | example decision        |
+|                    | composite_decision_structure.py | structures.             |
+
 
 <h4>exercicios_list:</h4>
 <ol>
@@ -149,26 +149,6 @@
 |                      | while_continua.py    | .                      |
 |                      | while_else.py        | .                      |
 |                      | while_cal_average.py |
-
-
-<h4>estrutura_de_repeticao:</h4>
-<ol>
-    <li>for_1.py;</li>
-    <li>for_2.py;</li>
-    <li>for_aninhado.py;</li>
-    <li>for_break.py;</li>
-    <li>for_continua.py;</li>
-    <li>for_else_break.py;</li>
-    <li>for_else.py;</li>
-    <li>for_range.py;</li>
-    <li>for_decremento_1.py;</li>
-    <li>while_1.py;</li>
-    <li>while_2.py;</li>
-    <li>while_break.py;</li>
-    <li>while_continua.py;</li>
-    <li>while_else.py;</li>
-    <li>while_cal_media.py;</li>
-</ol>
 
 
 <h4>software_iniciante_desafio:</h4>
