@@ -16,25 +16,6 @@
 |            | input_3.py | with data entries (input method). |
 
 
-<h4>estrutura_de_repeticao:</h4>
-<ol>
-    <li>for_1.py;</li>
-    <li>for_2.py;</li>
-    <li>for_aninhado.py;</li>
-    <li>for_break.py;</li>
-    <li>for_continua.py;</li>
-    <li>for_else_break.py;</li>
-    <li>for_else.py;</li>
-    <li>for_range.py;</li>
-    <li>for_decremento_1.py;</li>
-    <li>while_1.py;</li>
-    <li>while_2.py;</li>
-    <li>while_break.py;</li>
-    <li>while_continua.py;</li>
-    <li>while_else.py;</li>
-    <li>while_cal_media.py;</li>
-</ol>
-
 <h4>estrutura_de_decisao:</h4>
 <ol>
     <li>estrutura_decisao_composta.py;</li>
@@ -148,6 +129,45 @@
     <li>Integer_quotient_division.py ;</li>
     <li>square.py ;</li>
     <li>calculator_01.py ;</li>
+</ol>
+
+
+| Folder(s)            | File                 | Summary                |
+| -------------------- | -------------------- | ---------------------- |
+| repetition_structure | for_1py              | in this folder we have |
+|                      | for_2.py             | examples of            |
+|                      | for_break.py         | repeating structures.  |
+|                      | forcontinua.py       | .                      |
+|                      | for_decremento_1.py  | .                      |
+|                      | for_else_break.py    | .                      |
+|                      | for_else.py          | .                      |
+|                      | for_nested.py        | .                      |
+|                      | for_range.py         | .                      |
+|                      | while_1.py           | .                      |
+|                      | while_2.py           | .                      |
+|                      | while_break.py       | .                      |
+|                      | while_continua.py    | .                      |
+|                      | while_else.py        | .                      |
+|                      | while_cal_average.py |
+
+
+<h4>estrutura_de_repeticao:</h4>
+<ol>
+    <li>for_1.py;</li>
+    <li>for_2.py;</li>
+    <li>for_aninhado.py;</li>
+    <li>for_break.py;</li>
+    <li>for_continua.py;</li>
+    <li>for_else_break.py;</li>
+    <li>for_else.py;</li>
+    <li>for_range.py;</li>
+    <li>for_decremento_1.py;</li>
+    <li>while_1.py;</li>
+    <li>while_2.py;</li>
+    <li>while_break.py;</li>
+    <li>while_continua.py;</li>
+    <li>while_else.py;</li>
+    <li>while_cal_media.py;</li>
 </ol>
 
 
