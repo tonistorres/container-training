@@ -2,7 +2,9 @@
 
 ![Projeto Mezzer](./modelo.jpeg)
 
-> Este container será utilizado para guardar práticas que serão utilizadas para o curso da embraer em parceria com a xpe education.
+> **To complement my studies I'm going through all the python documentation (w3School).**
+**Sumerian in table form explains how files and folders are organized in the /python**
+**folder as laid out in this container.**
 
 | Folder(s)              | File                              | Summary                           |
 | ---------------------- | --------------------------------- | --------------------------------- |
