@@ -1,6 +1,6 @@
 [Documentação Python](https://docs.python.org/pt-br/3/tutorial/)
 
-![Projeto Mezzer](./modelo.jpeg)
+![Projeto Mezzer](./modelo_1.png)
 
 > **To complement my studies I'm going through all the python documentation (w3School).**
 **Sumerian in table form explains how files and folders are organized in the /python**
@@ -17,20 +17,16 @@
 |                        |                                   |                                   |
 | **decision_structure** | *avarage_grades.py*               | In this folder contains           |
 |                        | *composite_decision_structure.py* | example decision                  |
-|                        | *composite_decision_structure.py* | structures.                       |
+|                        |                                   |                                   |
+|                        | *ex_1.py*                         |                                   |
+|                        | *ex_2.py                          | this folder contains exercises    |
+|                        | *ex_3.py                          | related to list concepts          |
+| **exercises_list**     | *ex_4.py                          |                                   |
+|                        | *ex_5.py                          |                                   |
+|                        | *ex_6.py                          |                                   |
+|                        | *ex_7.py                          |                                   |
+|                        | *ex_8.py                          |                                   |
 
-
-<h4>exercicios_list:</h4>
-<ol>
-    <li>ex_1.py;</li>
-    <li>ex_2.py;</li>
-    <li>ex_3.py;</li>
-    <li>ex_4.py;</li>
-    <li>ex_5.py;</li>
-    <li>ex_6.py;</li>
-    <li>ex_7.py;</li>
-    <li>ex_8.py;</li>    
-</ol>
 
 <h4>Flask_Crud:</h4>
 <ol>
