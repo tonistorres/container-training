@@ -4,18 +4,18 @@
 
 > Este container será utilizado para guardar práticas que serão utilizadas para o curso da embraer em parceria com a xpe education.
 
-| Folder(s)          | File                            | Summary                           |
-| ------------------ | ------------------------------- | --------------------------------- |
-| crud               | Connection.py                   | Python project that performs      |
-|                    |                                 | operations on a mysql database    |
-|                    |                                 |                                   |
-| data_input         | input_1py                       | In the contents of this           |
-|                    | input_2.py                      | folder we find files              |
-|                    | input_3.py                      | with data entries (input method). |
-|                    |                                 |                                   |
-| decision_structure | avarage_grades.py               | In this folder contains           |
-|                    | composite_decision_structure.py | example decision                  |
-|                    | composite_decision_structure.py | structures.                       |
+| Folder(s)              | File                              | Summary                           |
+| ---------------------- | --------------------------------- | --------------------------------- |
+| **crud**               | *Connection.py*                   | Python project that performs      |
+|                        |                                   | operations on a mysql database    |
+|                        |                                   |                                   |
+| **data_input**         | *input_1py*                       | In the contents of this           |
+|                        | *input_2.py*                      | folder we find files              |
+|                        | *input_3.py*                      | with data entries (input method). |
+|                        |                                   |                                   |
+| **decision_structure** | *avarage_grades.py*               | In this folder contains           |
+|                        | *composite_decision_structure.py* | example decision                  |
+|                        | *composite_decision_structure.py* | structures.                       |
 
 
 <h4>exercicios_list:</h4>
