@@ -1,0 +1,11 @@
+-----------------------
+Adicionando Tecnologias
+-----------------------
+JavaScript
+Java desktop
+Python
+Sql-Server
+No-SQL
+Mongo DB
+Node
+Ract
