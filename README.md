@@ -6,52 +6,61 @@
 **Sumerian in table form explains how files and folders are organized in the /python**
 **folder as laid out in this container.**
 
-| Folder(s)              | File                              | Summary                           |
-| ---------------------- | --------------------------------- | --------------------------------- |
-| **crud**               | *Connection.py*                   | Python project that performs      |
-|                        |                                   | operations on a mysql database    |
-|                        |                                   |                                   |
-| **data_input**         | *input_1py*                       | In the contents of this           |
-|                        | *input_2.py*                      | folder we find files              |
-|                        | *input_3.py*                      | with data entries (input method). |
-|                        |                                   |                                   |
-| **decision_structure** | *avarage_grades.py*               | In this folder contains           |
-|                        | *composite_decision_structure.py* | example decision                  |
-|                        |                                   |                                   |
-|                        | *ex_1.py*                         |                                   |
-|                        | *ex_2.py                          | this folder contains exercises    |
-|                        | *ex_3.py                          | related to list concepts          |
-| **exercises_list**     | *ex_4.py                          |                                   |
-|                        | *ex_5.py                          |                                   |
-|                        | *ex_6.py                          |                                   |
-|                        | *ex_7.py                          |                                   |
-|                        | *ex_8.py                          |                                   |
-
-
-<h4>Flask_Crud:</h4>
-<ol>
-    <li>main.py;</li>
-    <li>src.controllers.controller.py;</li>
-    <li>src.routes.route.py;</li>
-    <li>src.app.py;</li>
-    <li>src.db.py;</li>
-  
-</ol>
-
-<h4>funcao:</h4>
-<ol>
-    <li>func_1.py;</li>
-    <li>func_calcule_media.py;</li>
-  
-</ol>
-
-
-<h4>funcao_manipulacao_textos:</h4>
-<ol>
-    <li>gravar.py;</li>
-    <li>leitura.py;</li>
-  
-</ol>
+| Folder(s)                      | File                              | Summary                               |
+| ------------------------------ | --------------------------------- | ------------------------------------- |
+| **crud**                       | *Connection.py*                   | Python project that performs          |
+|                                |                                   | operations on a mysql database        |
+|                                |                                   |                                       |
+| **data_input**                 | *input_1py*                       | In the contents of this               |
+|                                | *input_2.py*                      | folder we find files                  |
+|                                | *input_3.py*                      | with data entries (input method).     |
+|                                |                                   |                                       |
+| **decision_structure**         | *avarage_grades.py*               | In this folder contains               |
+|                                | *composite_decision_structure.py* | example decision                      |
+|                                |                                   |                                       |
+|                                | *ex_1.py*                         |                                       |
+|                                | *ex_2.py*                         | this folder contains exercises        |
+|                                | *ex_3.py*                         | related to list concepts              |
+| **exercises_list**             | *ex_4.py*                         |                                       |
+|                                | *ex_5.py*                         |                                       |
+|                                | *ex_6.py*                         |                                       |
+|                                | *ex_7.py*                         |                                       |
+|                                | *ex_8.py*                         |                                       |
+|                                |                                   |                                       |
+| **file_manipulation_1**        |                                   |                                       |
+| *manipulation_1*               | *languages_read_file.py*          | Example manipulation files            |
+|                                | *languages_write_file.py*         |                                       |
+|                                |                                   |                                       |
+|                                |                                   |                                       |
+| **Flask_Crud**                 |                                   |                                       |
+| *src*                          | *app.py*                          | Example basic crud(WEB/API)           |
+|                                | *db.py                            |                                       |
+|                                |                                   |                                       |
+|                                |                                   |                                       |
+| *controllers*                  | *controller.py                    |                                       |
+| *routes*                       | *route.py*                        |                                       |
+| *static*                       |                                   |                                       |
+| templates                      |                                   |                                       |
+|                                |                                   |                                       |
+| **function**                   | *keyword_argument.py*             | example of using function in python   |
+|                                | *list_as_an_argument.py*          |                                       |
+|                                | *kwargs.py*                       |                                       |
+|                                | *arbitrary_arguments.py*          |                                       |
+|                                | *avarage_calculation.py*          |                                       |
+|                                | *function.py*                     |                                       |
+|                                | *function_arguments.py*           |                                       |
+|                                | *function_return_tupla.py*        |                                       |
+|                                | *lambda_1.py*                     |                                       |
+|                                | *lambda_2.py*                     |                                       |
+|                                | *lambda_with_function.py*         |                                       |
+|                                | *passage_statement.py*            |                                       |
+|                                | *recursion.py*                    |                                       |
+|                                | *value_default.py*                |                                       |
+|                                | *value_return.py*                 |                                       |
+|                                | *welcome_functions.py*            |                                       |
+|                                | *zero_divisor.py*                 |                                       |
+| **function text manipulation** | *record.py*                       | example basic manipulation files text |
+|                                | *read.py*                         |                                       |
 
 
 <h4>localwb test logica:</h4>
