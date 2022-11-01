@@ -2,7 +2,7 @@
 Usar um módulo
 Agora podemos usar o módulo que acabamos de criar, usando a importinstrução:
 """
-import module1.mod_welcome as mw
+import mod_welcome as mw
 
 welcome_system = mw.greeting_system(name="Tonis")
 print(welcome_system)

@@ -1,4 +1,4 @@
-from Cliente import Cliente
+from python.POO.base_account.client import Cliente
 
 
 class Conta:

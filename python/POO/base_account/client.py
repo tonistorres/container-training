@@ -1,5 +1,5 @@
-from Celular import Celular
-from Endereco import Endereco
+from cell import Celular
+from python.POO.base_account.address import Endereco
 
 
 class Cliente:

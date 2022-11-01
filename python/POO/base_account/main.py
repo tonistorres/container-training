@@ -1,7 +1,7 @@
-from Celular import Celular
-from Cliente import Cliente
-from Endereco import Endereco
-from Conta import Conta
+from cell import Celular
+from python.POO.base_account.client import Cliente
+from python.POO.base_account.address import Endereco
+from python.POO.base_account.account import Conta
 
 
 class Main:

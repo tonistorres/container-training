@@ -61,96 +61,82 @@
 |                                | *zero_divisor.py*                 |                                       |
 | **function text manipulation** | *record.py*                       | example basic manipulation files text |
 |                                | *read.py*                         |                                       |
-
-
-<h4>localwb test logica:</h4>
-<ol>
-    <li>req_1.py;</li>
-    <li>req_2.py;</li>
-    <li>req_3.py;</li>
-  
-</ol>
-
-
-<h4>mascara_de_formatacao:</h4>
-<ol>
-    <li>mascara;</li>
-</ol>
-
-<h4>Numpy:</h4>
-<ol>
-    <li>.py;</li>
-</ol>
-
-
-<h4>operadores_boleanos:</h4>
-<ol>
-    <li>Operador and;</li>
-    <li>Operador not;</li>
-    <li>Operador or;</li>
-</ol>
-
-
-<h4>operadores_aritmeticos:</h4>
-<ol>
-    <li>book.py;</li>
-    <li>horas.py;</li>
-    <li>operacao_trybe.py;</li>
-    <li>operadores_aritmeticos.py;</li>
-</ol>
-
-
-<h4>operadores_comparacao:</h4>
-<ol>
-    <li>operator_bigger_or_equal.py;</li>
-    <li>operator_bigger_then.py;</li>
-    <li>operator_different.py;</li>
-    <li>operator_equal.py;</li>
-    <li>operator_less_or_equal.py;</li>
-    <li>operator_less_than.py;</li>
-</ol>
-
-<h4>POO:</h4>
-<h3>base</h3>
-<ol>
-    <li>liquidificador.py ;</li>    
-</ol>
-
-<h3>base_conta</h3>
-<ol>
-    <li>Celular.py ;</li>  
-    <li>Cliente.py ;</li>
-    <li>Conta.py ;</li>
-    <li>Endereco.py ;</li>
-    <li>Main.py ;</li>   
-</ol>
-
-
-<h4>python_calculadora:</h4>
-<ol>
-    <li>Integer_quotient_division.py ;</li>
-    <li>square.py ;</li>
-    <li>calculator_01.py ;</li>
-</ol>
-
-
-| Folder(s)            | File                 | Summary                |
-| -------------------- | -------------------- | ---------------------- |
-| repetition_structure | for_1py              | in this folder we have |
-|                      | for_2.py             | examples of            |
-|                      | for_break.py         | repeating structures.  |
-|                      | forcontinua.py       | .                      |
-|                      | for_decremento_1.py  | .                      |
-|                      | for_else_break.py    | .                      |
-|                      | for_else.py          | .                      |
-|                      | for_nested.py        | .                      |
-|                      | for_range.py         | .                      |
-|                      | while_1.py           | .                      |
-|                      | while_2.py           | .                      |
-|                      | while_break.py       | .                      |
-|                      | while_continua.py    | .                      |
-|                      | while_else.py        | .                      |
-|                      | while_cal_average.py |
+|                                |                                   |                                       |
+| **localwb test logica**        | *req_1.py*                        |                                       |
+|                                | *req_2.py*                        |                                       |
+|                                | *req_3.py*                        |                                       |
+|                                |                                   |                                       |
+| **mask_formating**             | *mask.py*                         |                                       |
+|                                |                                   |                                       |
+| **modules**                    |                                   |                                       |
+| *System_Welcome*               |                                   |                                       |
+| *module_area*                  | *main_all.py*                     |                                       |
+|                                | *main_unic_function.py*           |                                       |
+|                                | *main.py*                         |                                       |
+|                                |                                   |                                       |
+| *calculator_area*              | *calculator.py*                   |                                       |
+|                                |                                   |                                       |
+|                                |                                   |                                       |
+| **module_dict**                | *main.py*                         |                                       |
+| *operactions*                  | *operactions.py*                  |                                       |
+|                                |                                   |                                       |
+| **module1**                    | *main.py*                         |                                       |
+|                                | *mod_welcome.py*                  |                                       |
+|                                |                                   |                                       |
+| **modules_external**           |                                   |                                       |
+| *colorama*                     | *color.py*                        |                                       |
+|                                |                                   |                                       |
+| **modules_native**             | *ceil.py*                         |                                       |
+|                                | *floor.py*                        |                                       |
+|                                | *math_comb.py*                    |                                       |
+|                                | *math_pi.py*                      |                                       |
+|                                | *math_sqrt.py*                    |                                       |
+|                                |                                   |                                       |
+| **Numpy**                      |                                   |                                       |
+|                                |                                   |                                       |
+| **operation_comparison**       | *operator_bigger_or_equal.py*     |                                       |
+|                                | *operator_bigger_then.py*         |                                       |
+|                                | *operator_different.py*           |                                       |
+|                                | *operator_equal.py*               |                                       |
+|                                | *operator_less_or_equal.py*       |                                       |
+|                                | *operator_less_than.py*           |                                       |
+|                                |                                   |                                       |
+| **operations_boolean**         | *and_if.py*                       |                                       |
+|                                | *not.py*                          |                                       |
+|                                | *or.py*                           |                                       |
+|                                |                                   |                                       |
+| **operators_arithmetic**       | *book.py*                         |                                       |
+|                                | *hours.py*                        |                                       |
+|                                | *operations_trybe.py*             |                                       |
+|                                | *operators_arithmetic.py*         |                                       |
+|                                |                                   |                                       |
+| **POO**                        |                                   |                                       |
+| *base*                         | *blender*                         |                                       |
+| *base_accout*                  | *account.py*                      |                                       |
+|                                | *addresss.py*                     |                                       |
+|                                | *cell.py*                         |                                       |
+|                                | *client.py*                       |                                       |
+|                                | *main.py*                         |                                       |
+|                                |                                   |                                       |
+| **python_calculator**          | *integer_quotient_divisor.py*     |                                       |
+|                                | *square.py*                       |                                       |
+|                                | *calculator_01.py*                |                                       |
+|                                |                                   |                                       |
+| **repetition_structure**       | *for_1py*                         | in this folder we have                |
+|                                | *for_2.py*                        | examples of                           |
+|                                | *for_break.py*                    | repeating structures.                 |
+|                                | *forcontinua.py*                  | .                                     |
+|                                | *for_decremento_1.py*             | .                                     |
+|                                | *for_else_break.py*               | .                                     |
+|                                | *for_else.py*                     | .                                     |
+|                                | *for_nested.py*                   | .                                     |
+|                                | *for_range.py*                    | .                                     |
+|                                | *while_1.py*                      | .                                     |
+|                                | *while_2.py*                      | .                                     |
+|                                | *while_break.py*                  | .                                     |
+|                                | *while_continua.py*               | .                                     |
+|                                | *while_else.py*                   | .                                     |
+|                                | *while_cal_average.py*            |
 
 
 <h4>software_iniciante_desafio:</h4>
