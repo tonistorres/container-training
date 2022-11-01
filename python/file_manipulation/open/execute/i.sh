@@ -31,6 +31,10 @@ INSTALL_COLORAMA(){
   pip install colorama
 }
 
+INSTALL_OS(){
+  pip install os
+}
+
 
 INSTALANDOBLACKFLAKE(){
 echo "Install Black"
