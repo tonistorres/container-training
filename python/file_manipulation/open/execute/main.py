@@ -1,5 +1,7 @@
 import modules.open_file_read as read_operations
 import modules.open_file_write as write_fake
+import modules.deleting_file as remove
+import modules.deleting_folder as remove_folder
 
 # escrevendo arquivo
 # write_fake.write_file("modules/open.txt")
@@ -15,16 +17,17 @@ import modules.open_file_write as write_fake
 # abrindo arquivo txt utilizando mode=rt (r-leitura t- arquivo texto)
 # read_operations.read_file_txt_rt("modules/open.txt")
 # adicionando nova tecnologia
-write_fake.write_add_end_file("modules/open.txt", "-----------------------\n")
-write_fake.write_add_end_file("modules/open.txt", "Adicionando Tecnologias\n")
-write_fake.write_add_end_file("modules/open.txt", "-----------------------\n")
-write_fake.write_add_end_file("modules/open.txt", "JavaScript\n")
-write_fake.write_add_end_file("modules/open.txt", "Java desktop\n")
-write_fake.write_add_end_file("modules/open.txt", "Python\n")
-write_fake.write_add_end_file("modules/open.txt", "Sql-Server\n")
-write_fake.write_add_end_file("modules/open.txt", "No-SQL\n")
-write_fake.write_add_end_file("modules/open.txt", "Mongo DB\n")
-write_fake.write_add_end_file("modules/open.txt", "Node\n")
-write_fake.write_add_end_file("modules/open.txt", "Ract\n")
-read_operations.read_file_txt_rt("modules/open.txt")
-# write_fake.write_file()
+remove_folder.check_folder_delete("modules/teste/")
+# remove.check_before_delete("modules", "open.txt")
+# write_fake.write_add_end_file("modules", "open.txt", "-----------------------\n")
+# write_fake.write_add_end_file("modules", "open.txt", "Adicionando Tecnologias\n")
+# write_fake.write_add_end_file("modules", "open.txt", "-----------------------\n")
+# write_fake.write_add_end_file("modules", "open.txt", "JavaScript\n")
+# write_fake.write_add_end_file("modules", "open.txt", "Java desktop\n")
+# write_fake.write_add_end_file("modules", "open.txt", "Python\n")
+# write_fake.write_add_end_file("modules", "open.txt", "Sql-Server\n")
+# write_fake.write_add_end_file("modules", "open.txt", "No-SQL\n")
+# write_fake.write_add_end_file("modules", "open.txt", "Mongo DB\n")
+# write_fake.write_add_end_file("modules", "open.txt", "Node\n")
+# write_fake.write_add_end_file("modules", "open.txt", "xablau\n")
+# read_operations.read_file_txt_rt("modules/open.txt")

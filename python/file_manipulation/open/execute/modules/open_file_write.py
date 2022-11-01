@@ -27,6 +27,7 @@ Além disso você pode especificar se o arquivo deve ser tratado como modo biná
 
 
 """
+import os
 import colorama
 from colorama import Fore, Back, Style
 
@@ -47,21 +48,49 @@ def write_file(Path="default.txt"):
     f.close()
 
 
-def write_add_end_file(Path="file_default.tx", str="\n valeu argus default"):
+def write_add_end_file(Path, File, str):
     try:
-        r = open(Path, mode="r")
-        f = open(Path, mode="a")
-        # método que verifica se o arquivo pode ser lido
-        result = r.readable()
-        if result:
-            # adciona no final do arquivo
-            f.write(str)
-        r.close()
-        f.close()
-    except TypeError:
-        print("Erro: Faltando passar uma argumento posicional.")
-        print(
-            "outra possibilidade é não ter passado strings\n como argumento para função"
-        )
+
+        if os.path.exists(Path):
+            print(Fore.CYAN + "Path Successfully")
+            if os.path.isfile(f"{Path}/{File}"):
+                r = open(f"{Path}/{File}", mode="r")
+                f = open(f"{Path}/{File}", mode="a")
+
+                result = r.readable()
+                if result:
+                    f.write(str)
+                    print("Content adding Successfully")
+                r.close()
+                f.close()
+
+            else:
+                print(Fore.RED + "File not exists")
+                print(f"{Path}/{File}")
+                f = open(f"{Path}/{File}", mode="a")
+                create_file = open(f"{Path}/{File}", mode="w")
+                create_file.write("")
+                print(Fore.GREEN + "File Created.")
+                f.write(str)
+                print(Fore.BLUE + "Content adding Successfully")
+                f.close()
+                create_file.close()
+                # exit(1)
+
+        else:
+            print(Fore.RED + "Path not Exists")
+            exit(1)
+
     except FileNotFoundError:
-        print("Erro: Caminho passado como argumento é inválido")
+        print(Fore.RED + "Null value path")
+        exit(1)
+    except IsADirectoryError:
+        print(Fore.YELLOW + "Erro: Path Invalid")
+    except ModuleNotFoundError:
+        print("Need to install some external module")
+        exit(1)
+    except NameError:
+        print("Problem with colorama module see declarations or reinstallation")
+        exit(1)
+    except TypeError:
+        print("it is necessary to correctly pass all args (path, file.txt, content)")
