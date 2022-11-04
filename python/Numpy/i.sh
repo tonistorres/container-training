@@ -28,7 +28,7 @@ python3 -m venv .venv && source .venv/bin/activate
 }
 
 INSTALL_NUMPY(){
-  pip3 install numpy
+ pip install numpy
 }
 
 
@@ -62,14 +62,22 @@ GITIGNORE(){
 touch .gitignore
 cat << EOF >> .gitignore
 .venv/
+__pycache__
 
 EOF
 }
+
+
+INSTALL_COLORAMA(){
+  pip install colorama
+}
+
 
 INSTALADORES(){
 CRAIANDOAMBIENTEVIRTUAL
 ACESSANDOSITEINTERNET
 GITIGNORE
+INSTALL_COLORAMA
 INSTALL_NUMPY
 MOSTRARPACOTESINSTALADOS
 }
