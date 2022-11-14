@@ -29,9 +29,41 @@ python3 -m venv .venv && source .venv/bin/activate
 
 INSTALL_NUMPY(){
  pip install numpy
- pip install pandas
 }
 
+
+INSTALL_PANDAS(){
+# https://www.w3schools.com/python/pandas/pandas_getting_started.asp
+# Instalação de pandas
+# Se você já tem o Python e o PIP instalados em um sistema,
+# a instalação do Pandas é muito fácil.
+# C:\Users\Your Name>pip install pandas
+# Se este comando falhar, use uma distribuição python que
+# já tenha o Pandas instalado, como Anaconda, Spyder etc.
+
+  echo '--------------'
+  echo "Install Pandas"
+  echo '--------------'
+  sleep 1
+  echo '2s'
+  sleep 1
+  echo '1s'
+  sleep 1
+  pip install pandas
+}
+
+INSTALL_SCIKIT_LEARN(){
+
+  echo '---------------------'
+  echo "Install Scikit-Learn"
+  echo '---------------------'
+  sleep 1
+  echo '2s'
+  sleep 1
+  echo '1s'
+  sleep 1
+  pip install -U scikit-learn
+}
 
 INSTALANDOBLACKFLAKE(){
 echo "Install Black"
@@ -80,6 +112,8 @@ ACESSANDOSITEINTERNET
 GITIGNORE
 INSTALL_COLORAMA
 INSTALL_NUMPY
+INSTALL_PANDAS
+INSTALL_SCIKIT_LEARN
 MOSTRARPACOTESINSTALADOS
 }
 
