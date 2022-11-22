@@ -122,6 +122,7 @@ echo '***************************************'
 ls -a
 cd app
 mkdir templates
+touch urls.py
 cd ..
 echo '----------------'
 echo 'Subindo Servidor'
