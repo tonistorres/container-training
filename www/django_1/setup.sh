@@ -116,6 +116,13 @@ echo '---------------------------'
 echo 'Criando primeiro App Django'
 echo '---------------------------'
 python manage.py startapp app
+echo '***************************************'
+echo 'Mostrar o Diretório e arquivos contido '
+echo '***************************************'
+ls -a
+cd app
+mkdir templates
+cd ..
 echo '----------------'
 echo 'Subindo Servidor'
 echo '----------------'
