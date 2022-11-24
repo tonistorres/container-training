@@ -1,4 +1,6 @@
-
+# https://www.youtube.com/watch?v=NAstsS4rVrY&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=3
+# https://www.youtube.com/watch?v=6EpHpUoBQDc&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=4
+# https://www.youtube.com/watch?v=gBnLE2rFpqk&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=5
 echo --------------------------------------------------------
 echo -e "\033[31m Deseja Criar um App Djago? \033[m"
 read -p "s (SIM ) e n (NÃO) -->> " CONFIRM
@@ -117,9 +119,9 @@ EOF
     cd templates
     mkdir $NAME_APP_DJANGO
     cd $NAME_APP_DJANGO
-    touch example.html
+    touch index.html
 
-cat << EOF >> example.html
+cat << EOF >> index.html
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -127,7 +129,7 @@ cat << EOF >> example.html
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Documento</title>
+  <title>Documento Exemplo</title>
 </head>
 
 <body>
