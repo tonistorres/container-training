@@ -1,0 +1,85 @@
+/*CSS Code*/
+
+/*Basic Code*/
+
+body {
+  border: 2px solid #1e1e1e;
+  font-family: "Open sans", sans-serif;
+  /* color: #1e1e1e; */
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  color: #1e1e1e;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+#bar-nav {
+  background-color: #563D7C;
+  padding: 15px;
+}
+
+#footer {
+  /* border: 5px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px;
+  background-color: #563D7C;
+  color: #1e1e1e;
+  height: 80px;
+}
+
+#conteudoNavbarSuportado {
+  /* border: 2px solid whitesmoke; */
+  justify-content: end;
+}
+
+
+
+#ct-liks {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.logo-sys {
+  height: 60px;
+  width: 70px;
+  border-radius: 12px;
+}
+
+.rede-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid yellow; */
+  width: 27%;
+}
+
+.rede-social img {
+  height: 32px;
+  width: 32x;
+}
+
+#copyright {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
