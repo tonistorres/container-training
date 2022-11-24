@@ -1,8 +1,6 @@
-
 from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def index(request):
-    return HttpResponse("Hello World!!")
-
+def view_users(request):
+    return HttpResponse("Hello World View Users")

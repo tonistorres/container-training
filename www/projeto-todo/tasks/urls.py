@@ -1,4 +1,4 @@
 from django.urls import path
-from .views import tasks_initial
+from .views import tasksList
 
-urlpatterns = [path("", tasks_initial, name="tasks_initial")]
+urlpatterns = [path("", tasksList, name="tasksList")]
