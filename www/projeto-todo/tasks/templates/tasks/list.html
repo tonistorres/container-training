@@ -3,23 +3,192 @@
 {% block title %} Lista de Tarefas {% endblock %}
 
 {% block content %}
-<p>
+<!--Container Cabeçalo Lista-->
+<div class="container bg-light p-1 mt-3">
+  <div class="container-fluid d-flex flex-column align-items-center p-2 ">
+    <h1>Lista de Tarefas</h1>
+  </div>
+  <div class='container bg-light p-2'>
+    <!-- https://www.youtube.com/watch?v=VAgZE2yQNHY -->
+    <!--https://getbootstrap.com/docs/4.0/layout/grid/#equal-width-multi-row-->
+    <div class="container-fluid row">
 
-  What is Lorem Ipsum?
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-  type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-  essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-  passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <div class="container-fluid col-3 m-1 d-flex justify-content-end align-items-center"><button type="button"
+          class="btn btn-outline-dark"><span class="h5">Adicionar Tarefa</span></button>
+      </div>
 
-  Why do we use it?
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-  layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-  using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web
-  page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
-  sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-  purpose (injected humour and the like).
+      <div class="container-fluid col-5 d-flex justify-content-end align-items-center m-1">
+        <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username"
+          aria-describedby="basic-addon2">
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="container mb-3">
+  <ul class="list-group">
+    <li class="list-group-item">
+      <div class="container row">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar Numpy
+            Task</span></div>
+        <div class="container col col-1 "><button type="button" class="list-group-item list-group-item-action"><span
+              class="h4 color-icon-awesome"><i class="fas fa-trash"></i></span></button>
+        </div>
+        <div class="container col col-1"><button type="button" class="list-group-item list-group-item-action"><span
+              class="h4 color-icon-awesome"><i class="fas fa-edit"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
 
 
-</p>
+    <li class="list-group-item">
+      <div class="container row">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar Pandas
+            Task</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+
+    <li class="list-group-item">
+      <div class="container row border-primary">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar Django</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+    <li class="list-group-item">
+      <div class="container row border-primary">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar Node JS</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+
+    <li class="list-group-item">
+      <div class="container row border-primary">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar typescript</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+    <li class="list-group-item">
+      <div class="container row border-primary">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar Docker</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+
+
+    <li class="list-group-item">
+      <div class="container row border-primary">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar react</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+
+    <li class="list-group-item">
+      <div class="container row border-primary">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar BootStrap</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+
+    <li class="list-group-item">
+      <div class="container row border-primary">
+        <div class="container col col-3 bg-color-rows-content"></div>
+        <div class="container col col-4 d-flex align-items-center justify-content-start"><span
+            class="h4 color-icon-awesome">Estudar CSS Puro</span></div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-trash border"></i></span></button>
+        </div>
+        <div class="container col col-1 border"><button type="button"
+            class="list-group-item list-group-item-action"><span class="h4 color-icon-awesome"><i
+                class="fas fa-edit border"></i></span></button>
+        </div>
+        <div class="container col col-3 bg-color-rows-content"></div>
+      </div>
+    </li>
+
+
+  </ul>
+
+</div>
 {% endblock %}
