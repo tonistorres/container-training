@@ -1,6 +1,11 @@
+# Bootstrap grid
+# https://www.youtube.com/watch?v=VAgZE2yQNHY
+
 # https://www.youtube.com/watch?v=NAstsS4rVrY&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=3
 # https://www.youtube.com/watch?v=6EpHpUoBQDc&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=4
 # https://www.youtube.com/watch?v=gBnLE2rFpqk&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=5
+# https://www.youtube.com/watch?v=zKHxYWIjj3U&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=6
+# https://www.youtube.com/watch?v=biuNVj1PuGs&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&index=7
 echo --------------------------------------------------------
 echo -e "\033[31m Deseja Criar um App Djago? \033[m"
 read -p "s (SIM ) e n (NÃO) -->> " CONFIRM
