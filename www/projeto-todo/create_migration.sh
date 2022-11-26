@@ -3,6 +3,7 @@ CREATE_MIGRATION(){
 echo '////////////////////'
 echo 'Criando as Migrates '
 echo '////////////////////'
+# python manage.py makemigrations tasks
 python manage.py makemigrations
 sleep 1
 echo '2s'

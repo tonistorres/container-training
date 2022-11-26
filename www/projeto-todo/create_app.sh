@@ -108,7 +108,7 @@ cat << EOF >> models.py
 from django.db import models
 
 
-class User(models.Model):
+class Xsingular(models.Model):
     exemplo = models.CharField("exemplo", max_length=50)
 
 

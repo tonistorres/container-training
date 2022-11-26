@@ -90,3 +90,80 @@ h6 {
 .color-icon-awesome {
   color: #563D7C;
 }
+
+.ct-custom-detail {
+  color: #1e1e1e;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  border-top: 25px solid #563D7C;
+  border-bottom: 20px solid #563D7C;
+  height: 400px;
+  text-align: center;
+  min-height: 400px;
+  max-height: 400px;
+  width: 400px;
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.ct-custom-main {
+  /* border: 2px solid green; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 80%;
+  width: 100%;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #563D7C;
+  border: none;
+  height: 50px;
+  width: 30%;
+
+}
+
+.btn-primary:hover {
+  background-color: whitesmoke;
+  border-radius: 55px 105px 5px;
+  border: 2px solid #563D7C;
+  color: #1e1e1e;
+}
+
+.btn-custom-add {
+  /* border: 2px solid #563D7C; */
+  background-color: #563D7C;
+  border-radius: 5px;
+  color: whitesmoke;
+  height: 52px;
+  display: flex;
+  padding: 15px 15px;
+  align-items: center;
+  justify-content: centger;
+  text-decoration: none;
+}
+
+.btn-custom-add:hover {
+  border: 3px solid #563D7C;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: #1e1e1e;
+  font-weight: 700;
+}
+
+.form-control {
+  height: 52px;
+  font-size: 23px;
+  letter-spacing: 4px;
+}
+
+.tx-custom-area {
+  font-size: 18px;
+  height: auto;
+}

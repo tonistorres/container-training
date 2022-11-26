@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock %}
+
+{% block content %}
+<!-- # container-fluid w-100 h-75 border bg-dark d-flex align-items-center justify-content-center mt-4 -->
+<div class="ct-custom-main">
+  <div class="ct-custom-detail">
+    <div class="container">
+      <h3>{{task.title}}</h3>
+    </div>
+
+    <form class="p-3">
+      <div class="form-group">
+        <textarea class="form-control tx-custom-area" disabled id="exampleFormControlTextarea1"
+          rows="10">{{task.resumetask}}</textarea>
+      </div>
+    </form>
+    <div>
+      <a class="btn btn-primary" href="/" role="button">Home Page</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
