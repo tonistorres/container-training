@@ -1,4 +1,4 @@
 from django.urls import path
-from .views import view_users
+from .views import viewUser
 
-urlpatterns = [path("", view_users, name="view_users")]
+urlpatterns = [path("", viewUser, name="viewUser")]

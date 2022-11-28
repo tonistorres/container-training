@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import User
 
 
-def view_users(request):
-    return HttpResponse("Hello World View Users")
+def viewUser(request):
+    users = User.objects.all()
+    return render(request, "users/list.html", {"users": users})

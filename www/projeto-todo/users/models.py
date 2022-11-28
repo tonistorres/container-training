@@ -6,6 +6,5 @@ class User(models.Model):
     celular = models.CharField("celular", max_length=15)
     email = models.CharField("email", max_length=30)
 
-
-def __str__(self):
-    return f"Nome: {self.nome}\n Celular: {self.celular}\n Email: {self.email}\n"
+    def __str__(self):
+        return self.nome
