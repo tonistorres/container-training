@@ -3,11 +3,31 @@
 {% block title %} {% endblock %}
 
 {% block content %}
-<!-- # container-fluid w-100 h-75 border bg-dark d-flex align-items-center justify-content-center mt-4 -->
+<!--
+<div class="h-100 d-flex align-items-center justify-content-center border bg-danger">
+  <div style="background:red">
+    TEXT
+  </div>
+</div> -->
+
+<div class="container-fluid d-flex flex-column align-items-center justify-content-center h-100">
+  <div class="container w-25 bg-color-rows-content"><span class="h2">Preview Detail Taks</span></div>
+  <div class="container bg-light w-25 h-50 border text-center p-3">
+    <h3>{{task.title}}</h3>
+    <div>
+      <p>{{task.resumetask}}</p>
+    </div>
+  </div>
+  <a class="btn btn-dark w-25 btn-link-home-page-custom" href="/" role="button"><span class="h3">Go Home Page</span></a>
+</div>
+
+{% endblock %}
+
+<!--
 <div class="ct-custom-main">
   <div class="ct-custom-detail">
     <div class="container">
-      <h3>{{task.title}}</h3>
+      <h3>Title:{{task.title}}</h3>
     </div>
 
     <form class="p-3">
@@ -20,5 +40,4 @@
       <a class="btn btn-primary" href="/" role="button">Home Page</a>
     </div>
   </div>
-</div>
-{% endblock %}
+</div> -->
