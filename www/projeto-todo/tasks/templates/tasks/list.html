@@ -1,50 +1,140 @@
 {% extends 'base.html' %}
-
 {% block title %} List of the Tasks {% endblock %}
 {% block content %}
-<div class="container d-flex flex-column align-items-center justify-content-start" style="width:90%; height:80%;">
+{% load widget_tweaks %}
+<div class="container d-flex flex-column align-items-center justify-content-start " style="width:90%; height:80%;">
+  <style>
+    .ct-custom-input input {
+      border: 5px solid #563D7C;
+      color: #563D7C;
+      border-radius: 12px;
+      font-size: 25px;
+      height: 55px;
+      letter-spacing: 5px;
+      margin-top: 5px;
+      text-align: center;
+      width: 100%;
+    }
 
+    .btn-searc-custom {
+      background-color: #563D7C;
+      color: whitesmoke;
+      border-radius: 12px;
+      font-size: 25px;
+      height: 55px;
+      width: 100%;
+    }
+  </style>
   <div class="row w-100 text-center">
+
     <div class="col-12 d-flex flex-column align-items-center">
-      <h1>List Task</h1>
+      <h1 style="color:#563D7C ;">List Task</h1>
     </div>
 
   </div>
-  <div class="class row w-75 mt-3 mb-3">
-    <div class="class col-3">
-      <a class="btn-custom-add" href="newtask/" role="button"><span class="h3">Add Task</span></a>
+
+  <!--Formulário de Busca -->
+  <form action="?" method="GET" class="w-100 mb-3">
+    <div class="row w-100">
+      <!--Campo Search-->
+      <div class="col-6 border-danger " style="height:50px ;">
+        <span class="ct-custom-input">
+          <!--  https://www.youtube.com/watch?v=VYs-u0g__1A-->
+          {% render_field filter.form.title class="input" placeholder="Search" %}
+        </span>
+      </div>
+      <div class="col-2" style="margin-top: 4px;">
+        <input class="btn-searc-custom" type="submit" value="Search"></input>
+      </div>
+      <div class="col-2"
+        style="display: flex; align-items: center; justify-content: center; height: 55px; margin-top: 5px; border-radius: 12px;background-color: #563D7C;">
+        <a class="h3" href="/" style="color:whitesmoke ; text-decoration: none;">
+          Limpar
+        </a>
+      </div>
+      <div class="col-2" style="margin-top: 5px;">
+        <a class="btn-custom-add "
+          style="border-radius:8px; width: 100%;border: none;color: whitesmoke; background-color:#563D7C ; display: flex; align-items: center; justify-content: center;"
+          href="newtask/" role="button">
+          <span class="h3">
+            Add
+          </span>
+        </a>
+      </div>
     </div>
-    <div class="class col-6">
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username">
-    </div>
-  </div>
 
 
-  <div class="class row w-75 text-center">
-    <div class="class col-12">
-      <ul class="list-group">
-        {% for task in tasks %}
-        <li class="list-group-item">
-          <div class="row justify-content-center">
-            <div class="container col col-1 bg-color-rows-content"> </div>
-            <div class="container col col-6 d-flex align-items-center justify-content-start"><span class="h4">
-                <a href="/task/{{task.id}}">{{task.title}}</a></span>
-            </div>
-            <div class="container col col-1">
-              <a class="btn bt-custom-list" href="#" role="button"><span class="h2 color-icon-awesome"><i
-                    class="fas fa-trash"></i></span></a>
-            </div>
-            <div class="container col col-1">
-              <a class="btn bt-custom-list" href="#" role="button"><span class="h2 color-icon-awesome"><i
-                    class="fas fa-edit"></i></span></a>
-            </div>
-            <div class="container col col-1 bg-color-rows-content"></div>
+  </form>
 
+  <div class="container p-3 overflow-auto" style="height: 80%; border-top: 12px solid #563D7C; border-radius: 12px;">
+
+    {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+      <li {% if message.tags %}class="alert alert-{{message.tags}}" {% endif %} style="list-style:none ;">
+        <h3>{{message}}</h3>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <ul class="list-group">
+      {% for obj in filter.qs %}
+      <li class="list-group-item">
+        <div class="row justify-content-center">
+          <div class="container col col-1 bg-color-rows-content"> </div>
+          <div class="container col col-6 d-flex align-items-center justify-content-start"><span class="h4">
+              <a href="/task/{{obj.id}}">{{obj.title}}</a></span>
           </div>
-        </li>
-        {% endfor%}
-      </ul>
-    </div>
+          <div class="container col col-1">
+            <a class="btn bt-custom-list" href="/delete/{{obj.id}}" role="button"><span class="h2 color-icon-awesome"><i
+                  class="fas fa-trash"></i></span></a>
+          </div>
+          <div class="container col col-1">
+            <a class="btn bt-custom-list" href="/edit/{{obj.id}}" role="button"><span class="h2 color-icon-awesome"><i
+                  class="fas fa-edit"></i></span></a>
+          </div>
+          <div class="container col col-1 bg-color-rows-content"></div>
+
+        </div>
+      </li>
+      {% empty %}
+      <div class="row">
+        <span class="h4" style="color:#563D7C ;">Nenhum Registro encontrado</span>
+      </div>
+      {% endfor%}
+
+    </ul>
+    <!--Section Pagination-->
+    <!-- <div class="pagination container-fluid p-2 " style="background-color:#563D7C ; border-radius:12px;">
+      <span class="container step-links">
+
+        <span class="container border border-secondary current text-center w-25 h5"
+          style="background-color:whitesmoke ; border-radius: 12px; ">
+
+          {% if tasks.has_previous %}
+
+          <a href="?page={{tasks.previous_page_number}}">
+
+            <i class="fas fa-arrow-left"></i>
+
+          </a>
+
+          {% endif %}
+
+          <span style="color:black ;">{{tasks.number}} of the {{ tasks.paginator.tasks }}</span>
+
+          {% if tasks.has_next %}
+          <a href="?page={{tasks.next_page_number}}">
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          {% endif %}
+
+
+
+        </span>
+      </span>
+    </div> -->
   </div>
 </div>
 {% endblock %}

@@ -1,0 +1,41 @@
+{# Comentário em jinja base.html contém o template que usaremos como esqueleto #}
+{% extends 'base.html' %}
+<!-- {% load crispy_forms_tags %} -->
+{% block title %}Editing {{task.title}} {% endblock %}
+
+{% block content %}
+<div class="container p-0 m-0 d-flex flex-column align-items-center justify-content-center"
+  style="width:33% ; height: 70%;">
+  <div class="container-fluid w-75 text-center bg-color-rows-content p-2">
+    <span class="h2">
+      Form Edit User
+    </span>
+  </div>
+
+  <div class="row w-75 d-flex align-items-center justify-content-center" style="height:80%; ">
+    <form method="POST" class="h-100 w-100 bg-light border border-dark">
+      {% csrf_token %}
+      <label for="title" class="h3 p-1" style="color:#563D7C ;">Name</label>
+      <p class="h3 w-100 p-1">{{form.nome}}</p>
+      <label for="title" class="h3 p-1" style="color:#563D7C ;">Cell</label>
+      <p class="h3 p-1">{{form.celular}}</p>
+      <label for="resumetask" class="h3 p-1" style="color:#563D7C ;"> Email </label>
+      <p class="h3 p-1 border border-danger">
+        {{form.email}}</p>
+      <p>
+        <input id="btn-submit-task" class="w-100 h2 mt-3 p-2" onclick=""
+          style="color:whitesmoke ; background: #563D7C; border: none; border-radius: 5px;" type="submit"
+          value="Edit User">
+      </p>
+      <p>
+        <a class="btn btn-dark w-100 btn-link-home-page-custom" href="/" role="button">
+          <span class="h3">Go Home Page</span>
+        </a>
+      </p>
+
+    </form>
+
+  </div>
+</div>
+
+{% endblock %}

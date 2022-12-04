@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} About System {% endblock %}
+{% block content %}
+
+<div class="container w-50 h-50 p-0 m-0 bg-light">
+  <!--Linha-->
+  <div class="row h-100 d-flex align-items-center justify-content-center">
+    <!--Coluna-->
+    <div class="col-4 h-100 d-flex align-items-center justify-content-center">
+      <img src="{% static 'img/embraer.jpg'%}" alt="logo embraer" style="width:300px; height: 280px;">
+    </div>
+    <!--Coluna-->
+    <div class="col-8 h-100">
+      <!--Linha uma abaixo da outra-->
+      <div class="row h-100 d-flex flex-column align-items-center justify-content-center"
+        style="background-color: #563D7C; color: whitesmoke; border-radius: 12px;">
+        <div class="col-1"><img src="{% static 'img/xpe.jpeg'%}" alt="logo embraer" style="width:100px; height: 60px;">
+        </div>
+
+        <div class="col-10 p-0 m-0" style="width:95% ;">
+          <p class="text-justify h3 mt-4"> Um CRUD desenvolvido em Django tendo como padrão de projeto o MVT (Models
+            Templates
+            Views), com integração de
+            tecnologias como CSS, Bootstrap,Javascript, e Banco de Dados sqlite.</p>
+          <p class="text-justify h3">Embraer Social Tech Careers, um programa de aceleração de carreiras em tecnologia
+            para grupos sub-representados.</p>
+
+
+        </div>
+
+        <div class="col-1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <a class="btn btn-dark w-25 btn-link-home-page-custom" href="{% url 'tasks_list_filtered'%}" role="button"><span
+        class="h3">Go
+        Home Page</span></a>
+  </div>
+</div>
+
+{% endblock %}

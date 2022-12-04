@@ -1,0 +1,39 @@
+{# Comentário em jinja base.html contém o template que usaremos como esqueleto #}
+{% extends 'base.html' %}
+<!-- {% load crispy_forms_tags %} -->
+{% block title %}Editing {{task.title}} {% endblock %}
+
+{% block content %}
+<div class="container p-0 m-0 d-flex flex-column align-items-center justify-content-center"
+  style="width:33% ; height: 70%;">
+  <div class="container-fluid text-center bg-color-rows-content p-2">
+    <span class="h2">
+      Form Edit Task
+    </span>
+  </div>
+
+  <div class="row w-100 d-flex align-items-center justify-content-center" style="height:95%; ">
+    <form method="POST" class="h-100 w-100 bg-light">
+      {% csrf_token %}
+      <label for="title" class="h3 p-3" style="color:#563D7C ;">Task</label>
+      <p class="h3">{{form.title}}</p>
+      <label for="resumetask" class="h3 p-3" style="color:#563D7C ;"> Resume Task </label>
+      <p class="d-flex align-items-center justify-content-center h5 p-2">
+        {{form.resumetask}}</p>
+      <p>
+        <input id="btn-submit-task" class="w-100 h2 p-1" onclick=""
+          style="color:whitesmoke ; background: #563D7C; border: none; border-radius: 5px;" type="submit"
+          value="Edit Task">
+      </p>
+      <p>
+        <a class="btn btn-dark w-100 btn-link-home-page-custom" href="/" role="button">
+          <span class="h3">Go Home Page</span>
+        </a>
+      </p>
+
+    </form>
+
+  </div>
+</div>
+
+{% endblock %}

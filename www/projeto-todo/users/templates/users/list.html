@@ -6,7 +6,7 @@
 
   <div class="row w-100 text-center">
     <div class="col-12 d-flex flex-column align-items-center">
-      <h1>List Users</h1>
+      <h1>List User</h1>
     </div>
 
   </div>
@@ -19,32 +19,41 @@
     </div>
   </div>
 
+  <div class="container p-3"
+    style="height: 80%; overflow: auto; border-bottom: 15px solid #563D7C;border-top: 12px solid #563D7C; border-radius: 12px;">
 
-  <div class="class row w-75 text-center">
-    <div class="class col-12">
-      <ul class="list-group">
-        {% for user in users %}
-        <li class="list-group-item">
-          <div class="row justify-content-center">
-            <div class="container col col-1 bg-color-rows-content"> </div>
-            <div class="container col col-6 d-flex align-items-center justify-content-start"><span class="h4">
-                <a href="/task/{{task.id}}">{{user.nome}}</a></span>
-            </div>
-            <div class="container col col-1">
-              <a class="btn bt-custom-list" href="#" role="button"><span class="h2 color-icon-awesome"><i
-                    class="fas fa-trash"></i></span></a>
-            </div>
-            <div class="container col col-1">
-              <a class="btn bt-custom-list" href="#" role="button"><span class="h2 color-icon-awesome"><i
-                    class="fas fa-edit"></i></span></a>
-            </div>
-            <div class="container col col-1 bg-color-rows-content"></div>
+    {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+      <li {% if message.tags %}class="alert alert-{{message.tags}}" {% endif %} style="list-style:none ;">
+        <h3>{{message}}</h3>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
 
+    <ul class="list-group">
+      {% for user in users %}
+      <li class="list-group-item">
+        <div class="row justify-content-center">
+          <div class="container col col-1 bg-color-rows-content"> </div>
+          <div class="container col col-6 d-flex align-items-center justify-content-start"><span class="h4">
+              <a href="/user/searchid/{{user.id}}">{{user.nome}}</a></span>
           </div>
-        </li>
-        {% endfor%}
-      </ul>
-    </div>
+          <div class="container col col-1">
+            <a class="btn bt-custom-list" href="/user/deleteuserid/{{user.id}}" role="button"><span
+                class="h2 color-icon-awesome"><i class="fas fa-trash"></i></span></a>
+          </div>
+          <div class="container col col-1">
+            <a class="btn bt-custom-list" href="/user/edituser/{{user.id}}" role="button"><span
+                class="h2 color-icon-awesome"><i class="fas fa-edit"></i></span></a>
+          </div>
+          <div class="container col col-1 bg-color-rows-content"></div>
+
+        </div>
+      </li>
+      {% endfor%}
+    </ul>
   </div>
 </div>
 {% endblock %}

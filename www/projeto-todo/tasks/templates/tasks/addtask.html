@@ -4,13 +4,73 @@
 
 {% block content %}
 
-<div>
-  <h2>Add Tasks</h2>
-  <form method="POST" class="p-3 d-flex align-items-center justify-content-center">
-    {% csrf_token %}
-    {{ form.as_p}}
-    <input type="submit" class="btn btn-success" value="Criar Tarefa">
-  </form>
+<div class="container border border-primary w-25 p-0 m-0">
+  <script>
+
+
+    function buttonEnabled() {
+      document.getElementById("btn-submit-task").disabled = false;
+      document.getElementById("btn-submit-task").style.backgroundColor = "#563D7C";
+      document.getElementById("btn-submit-task").style.color = "whitesmoke";
+      document.getElementById("btn-submit-task").value = 'Submit User';
+    }
+
+    function buttonDisable() {
+      document.getElementById("btn-submit-task").disabled = true;
+      document.getElementById("btn-submit-task").style.backgroundColor = "#E7E9EB";
+      document.getElementById("btn-submit-task").style.color = "#1e1e1e";
+      document.getElementById("btn-submit-task").value = 'Submit disabled';
+    }
+
+    function enableButtonSubmit() {
+      const titleCaptureForm = document.f.title.value;
+      const resumeTaskCapture = document.f.resumetask.value;
+      if (titleCaptureForm.length > 1 && resumeTaskCapture.length > 1) {
+        buttonEnabled()
+      } else {
+        buttonDisable()
+
+      }
+    }
+
+    function onFocusInputEnableSubmit() {
+      buttonEnabled()
+    }
+
+
+  </script>
+
+  <div class="container-fluid text-center bg-color-rows-content p-2">
+    <span class="h2">
+      Add Taks
+    </span>
+  </div>
+  <div class="container p-3">
+    <form class="p-3" action="{% url 'newTask'%}" method="POST" name="f">
+      {% csrf_token %}
+
+      <label for="title" class="h2" style="color:#563D7C ;">Task</label><br />
+      <input onclick="onFocusInputEnableSubmit()" class="h3 w-100" type="text" id="title" name="title">
+      <br />
+      <br />
+      <label for="resumetask" class="h2" style="color:#563D7C">Description Task</label>
+      <textarea id="resumetask" class="h3 w-100" name="resumetask" rows="8" cols="38"
+        onclick="onFocusInputEnableSubmit()">
+    </textarea>
+      <br /><br />
+      <p>
+        <input id="btn-submit-task" class="w-100 h2 p-1" onclick="enableButtonSubmit()"
+          style="color:whitesmoke ; background: #563D7C; border: none; border-radius: 5px;" type="submit"
+          value="Submit Task">
+      </p>
+      <p>
+        <a class="btn btn-dark w-100 btn-link-home-page-custom" href="/" role="button">
+          <span class="h3">Go Home Page</span>
+        </a>
+      </p>
+    </form>
+  </div>
 </div>
+
 
 {% endblock %}

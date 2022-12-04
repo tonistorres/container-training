@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Preview User{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid d-flex flex-column align-items-center justify-content-center h-100">
+  <div class="container w-25 bg-color-rows-content"><span class="h2">Preview Detail User</span></div>
+  <div class="container bg-light w-25 h-50 border text-center p-3">
+    <h3>{{user.nome}}</h3>
+    <div>
+      <p>{{user.celular}}</p>
+      <p>{{user.email}}</p>
+    </div>
+  </div>
+  <a class="btn btn-dark w-25 btn-link-home-page-custom" href="{% url 'viewUser'%}" role="button"><span class="h3">Go
+      Home Page</span></a>
+</div>
+
+{% endblock %}

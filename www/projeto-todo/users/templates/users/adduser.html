@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock %}
+
+{% block content %}
+
+<div class="container border border-primary w-25 p-0 m-0">
+  <script>
+
+    function buttonEnabled() {
+      document.getElementById("btn-submit-user").disabled = false;
+      document.getElementById("btn-submit-user").style.backgroundColor = "#563D7C";
+      document.getElementById("btn-submit-user").style.color = "whitesmoke";
+      document.getElementById("btn-submit-user").value = 'Submit User';
+    }
+
+    function buttonDisable() {
+      document.getElementById("btn-submit-user").disabled = true;
+      document.getElementById("btn-submit-user").style.backgroundColor = "#E7E9EB";
+      document.getElementById("btn-submit-user").style.color = "#1e1e1e";
+      document.getElementById("btn-submit-user").value = 'Submit disabled';
+    }
+
+    function enableButtonSubmit() {
+      const nomeCapture = document.f.nome.value;
+      const celularCapture = document.f.celular.value;
+      const emailCapture = document.f.email.value;
+      if (nomeCapture.length > 1 && celularCapture.length > 1 && emailCapture.length > 1) {
+        buttonEnabled()
+      } else {
+        buttonDisable()
+
+      }
+    }
+
+    function onFocusInputEnableSubmit() {
+      buttonEnabled()
+    }
+
+  </script>
+  <div class="container-fluid text-center bg-color-rows-content p-2">
+    <span class="h2">
+      Add User
+    </span>
+  </div>
+  <div class="container p-3">
+    <form class="p-0 m-0" action="{% url 'newUser'%}" method="POST" name="f" id="f">
+      {% csrf_token %}
+
+      <label for="nome" class="h2" style="color:#563D7C ;">User</label><br />
+      <input class="h3 w-100" type="text" id="nome" name="nome" onfocus="onFocusInputEnableSubmit()"
+        placeholder="Enter name user">
+      <br />
+      <br />
+      <label for="celular" class="h2" style="color:#563D7C ;">Cell</label><br />
+      <input class="h3 w-100" type="text" id="celular" name="celular" onfocus="onFocusInputEnableSubmit()"
+        placeholder="(xx)9xxxx-xxxx">
+      <br />
+      <br />
+      <label for="email" class="h2" style="color:#563D7C ;">Email</label><br />
+      <input class="h3 w-100" type="text" id="email" name="email" onfocus="onFocusInputEnableSubmit()"
+        placeholder="exemplo@gmail.com">
+      <br />
+      <br />
+      <div class="container-fluid w-100 p-0 m-0 d-flex align-items-center justify-content-center">
+        <p class="container-fluid w-100">
+          <input id="btn-submit-user" onclick="enableButtonSubmit()" class="w-100 h2 p-1"
+            style="color:whitesmoke ; background: #563D7C; border: none; border-radius: 5px;" type="submit"
+            value="Submit User">
+        </p>
+      </div>
+
+    </form>
+    <div class="container-fluid p-0 m-0 d-flex align-items-center justify-content-center">
+      <p class="container-fluid w-100">
+        <a class="btn w-100  btn-dark btn-link-home-page-custom text-center border border-dark"
+          href="{% url 'viewUser'%}" role="button">
+          <span class="h3">Go Home Page</span>
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+
+{% endblock %}
