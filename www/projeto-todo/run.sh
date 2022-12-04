@@ -6,7 +6,7 @@ TIME(){
 }
 
 RODANDO_PROJETO(){
-TIME
+# TIME
 echo '**************************'
 echo 'Rodando Projeto Django'
 echo '**************************'

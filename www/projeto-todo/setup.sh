@@ -34,6 +34,11 @@ INSTALANDO_DJANGO(){
   pip install django
 }
 
+INSTALANDO_BIBLIOTECA_TRABALHA_COM_FORM(){
+  TIME
+  echo 'Django Crispy-Forms'
+  pip install django-crispy-forms
+}
 
 INSTALANDO_BLACK_FLAKE(){
 TIME
@@ -87,10 +92,13 @@ if [ "$CONFIRM" = s ];then
 # PASSO 2: Criar um ambiente virtual
 CRAIANDO_AMBIENTE_VIRTUAL
 
-# PASSO 4: Instalando Black e Flake
+# Instalando Black e Flake
 INSTALANDO_BLACK_FLAKE
 
-# PASSO 5: Criando o arquivo git ignore
+# Instando Biblioteca que trabalha com forms no Djago
+INSTALANDO_BIBLIOTECA_TRABALHA_COM_FORM
+
+# Criando o arquivo git ignore
 GITIGNORE
 
 

@@ -39,9 +39,7 @@ do
 cat << EOF >> urls.py
 from django.urls import path
 from .views import here_name_view
-
 urlpatterns = [path("", here_name_view, name="here_name_view")]
-
 EOF
 
     sleep 1
@@ -61,11 +59,8 @@ EOF
 cat << EOF >> views.py
 from django.shortcuts import render
 from django.http import HttpResponse
-
-
 def tasksList(request):
     return render(request, "nome_pasta_dentro_template/example.html")
-
 EOF
 
     sleep 1
@@ -85,7 +80,6 @@ EOF
 cat << EOF >> admin.py
 from django.contrib import admin
 from .models import User
-
 # Register your models here.
 admin.site.register(User)
 EOF
@@ -106,15 +100,10 @@ EOF
     echo '******************************'
 cat << EOF >> models.py
 from django.db import models
-
-
 class Xsingular(models.Model):
     exemplo = models.CharField("exemplo", max_length=50)
-
-
 def __str__(self):
     return f"Exemplo: {self.exemplo}\n"
-
 EOF
 
 
@@ -129,18 +118,15 @@ EOF
 cat << EOF >> index.html
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Documento Exemplo</title>
 </head>
-
 <body>
   <h1>EXAMPLE PARA ALTERAÇÃO</h1>
 </body>
-
 </html>
 EOF
     cd ..
