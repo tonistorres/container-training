@@ -69,6 +69,12 @@ tasks/templates/tasks/base.html
 componente NavBar
 */
 
+.logo-embraer-about {
+  height: 40px;
+  width: 20px;
+  /* border-radius: 12px; */
+}
+
 .logo-embraer {
   margin-left: 10px;
   height: 40px;
@@ -233,8 +239,5 @@ componente NavBar
   background-color: whitesmoke;
 }
 
-/*Messages*/
-ul.messages {
-  padding: 0;
 
-}
+/*Template/tasks/addtask.html*/

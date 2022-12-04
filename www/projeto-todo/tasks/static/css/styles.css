@@ -232,3 +232,15 @@ componente NavBar
   color: #1e1e1e;
   background-color: whitesmoke;
 }
+
+
+/*Messages*/
+
+ul.messages {
+  padding: 0;
+
+}
+
+ul.messages li {
+  list-style: none;
+}
